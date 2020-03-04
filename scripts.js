@@ -38,7 +38,7 @@ arrayOfNumbers = [1, 2, 3];
 arrayMixed = ["a", 1, null, true, arrayOfNumbers, [4.5, 5.6]];
 $("#response").html(arrayMixed[4]);
 */
-let myHabaneroSauceSquirts, myBurritoObject;
+/*let myHabaneroSauceSquirts, myBurritoObject;
 // First, define and assign a variable for how
 // spicy the burrito is.
 myHabaneroSauceSquirts = 3;
@@ -62,3 +62,24 @@ $("#response").html("Your " + myBurritoObject.tortilla + " burrito has " +
 myBurritoObject.habaneroSauceSquirts +
 " squirts of habanero.");
 myBurritoObject.spiciness();
+*/
+/*let turtles, sortedTurtles, reversedTurtles, turtleNames;
+turtles = ["Leonardo", "Donatello", "Raphael","Michelangelo"];
+sortedTurtles = turtles.sort();
+// sortedTurtles is:
+// ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
+reversedTurtles = turtles.reverse();
+// reversedTurtles is:
+// ["Raphael", "Michelangelo", "Donatello", "Leonardo"]
+turtleNames = turtles.join(" ");
+// turtleNames is "Leonardo Donatello Raphael Michelangelo"
+turtles.push("Splinter");
+// turtles is now:
+// ["Leonardo", "Donatello", "Raphael", "Michelangelo", "Splinter"]
+turtles.pop();
+// back to ["Leonardo", "Donatello", "Raphael", "Michelangelo"]
+*/
+let hotcoco;
+hotcoco = ["Coco", "Milk", "Watter", "Whipped Cream"];
+let lastIngredient = hotcoco[hotcoco.length -1];
+$("#response").html(lastIngredient);
