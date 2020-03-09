@@ -79,7 +79,10 @@ turtles.push("Splinter");
 turtles.pop();
 // back to ["Leonardo", "Donatello", "Raphael", "Michelangelo"]
 */
-let hotcoco;
-hotcoco = ["Coco", "Milk", "Watter", "Whipped Cream"];
-let lastIngredient = hotcoco[hotcoco.length -1];
-$("#response").html(lastIngredient);
+let sameparagraph;
+sameparagraph = ["Coco", "Milk", "Watter", "Whipped Cream"];
+let pchanged
+pchanged = sameparagraph.pop();
+$("p").html(pchanged);
+$("second-paragraph").html(pchanged);
+$("third-paragraph").html(pchanged);
